@@ -1,7 +1,5 @@
 import os
 import streamlit as st
-from lib.db import init_tables_once
-init_tables_once()  # pas dans get_leagues() !
 
 st.set_page_config(page_title="Padel League", page_icon="🎾", layout="wide")
 st.title("🎾 Padel League Manager — Cloud (Supabase)")
